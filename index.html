@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Movement Tracker</title>
+<meta name="description" content="Privacy policy for the Movement Tracker Android application by TeamCoolApps.">
+<style>
+  :root {
+    --bg: #f3f4ef; --surface: #ffffff; --text: #14171c; --muted: #5a6170;
+    --primary: #2453d6; --primary-soft: #e6ebf7; --border: #dadde5;
+    --positive: #3f6b4a; --positive-bg: #dfeadb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1115; --surface: #1a1d23; --text: #eef0ea; --muted: #a9b0bc;
+      --primary: #8aa8ff; --primary-soft: #1f2840; --border: #2c323c;
+      --positive: #8fc29b; --positive-bg: #22362a;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.65; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 40px 24px 96px; }
+  header { border-radius: 16px; padding: 32px 28px; margin-bottom: 24px;
+    background: linear-gradient(135deg, #14171c 0%, #2c323c 60%, #ffb000 160%); color: #fff; }
+  header h1 { margin: 0 0 6px; font-size: 28px; font-weight: 700; letter-spacing: -0.01em; }
+  header p { margin: 0; opacity: 0.92; font-size: 15px; }
+  .card { background: var(--surface); border: 1px solid var(--border);
+    border-radius: 14px; padding: 22px 26px; margin: 14px 0; }
+  h2 { font-size: 19px; font-weight: 600; margin: 0 0 12px; letter-spacing: -0.005em; }
+  p, ul, ol { margin: 0 0 12px; }
+  ul, ol { padding-left: 22px; } li { margin-bottom: 6px; }
+  .muted { color: var(--muted); font-size: 14px; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 14px; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { font-weight: 600; color: var(--muted); background: var(--primary-soft); }
+  tr:last-child td { border-bottom: none; }
+  code { background: var(--primary-soft); padding: 1px 6px; border-radius: 4px;
+    font-size: 13px; font-family: "SFMono-Regular", Consolas, Menlo, monospace; }
+  a { color: var(--primary); text-decoration: none; } a:hover { text-decoration: underline; }
+  .badge { display: inline-block; background: var(--positive-bg); color: var(--positive);
+    font-size: 12px; font-weight: 600; padding: 2px 8px; border-radius: 20px; }
+  footer { margin-top: 32px; text-align: center; color: var(--muted); font-size: 13px; }
+  @media (max-width: 480px) {
+    .wrap { padding: 24px 16px 64px; }
+    header { padding: 24px 20px; } header h1 { font-size: 24px; }
+    .card { padding: 18px 20px; } h2 { font-size: 17px; }
+    table { font-size: 13px; } th, td { padding: 8px 10px; }
+  }
+</style>
+</head>
+<body>
+<main class="wrap">
+
+<header>
+  <h1>Privacy Policy</h1>
+  <p>Movement Tracker &middot; last updated <time datetime="2026-11-14">November 14, 2026</time></p>
+</header>
+
+<section class="card">
+  <h2>1. Summary</h2>
+  <p>Movement Tracker (&ldquo;the app&rdquo;) is published by <strong>TeamCoolApps</strong>. It records where you go while you choose to record &mdash; the places you stop at and the routes between them &mdash; and shows them as a timeline, a schematic network map and statistics.</p>
+  <ul>
+    <li>The app collects your <strong>precise location</strong>, but <strong>only while a recording you started is running</strong>. You start it with a tap on <em>Start line</em> and end it with <em>End line</em>; a notification is shown the whole time.</li>
+    <li>The app <strong>does not use background location</strong> and never starts recording on its own (not at boot, not on a schedule, not from a geofence).</li>
+    <li>Your location history is <strong>stored only on your phone</strong>. The app has <strong>no internet permission</strong>: it cannot send anything anywhere, and <strong>we (the developer) never receive any data about you</strong>.</li>
+    <li>It tracks only the phone&rsquo;s own user. There is no live sharing, no remote viewing and no hidden mode.</li>
+    <li>No account, no ads, no analytics, no crash reporting, no map tiles.</li>
+  </ul>
+</section>
+
+<section class="card">
+  <h2>2. Data we collect</h2>
+  <p><strong>The developer collects nothing.</strong> We have no server, and the app has no internet access, so no location, personal data, usage data or analytics ever reach us or any third party.</p>
+  <p>The location data described in section 3 is collected by the app <em>for you</em>, kept on your device, and leaves it only in files you choose to export or back up yourself.</p>
+</section>
+
+<section class="card">
+  <h2>3. Data stored on your device</h2>
+  <p>Everything is stored in the app&rsquo;s private storage. The app opts out of Android cloud backup and device-to-device transfer, so this data is not copied to your Google account.</p>
+  <table>
+    <thead><tr><th>Item</th><th>Where</th><th>Sent off device?</th></tr></thead>
+    <tbody>
+      <tr><td>Location points recorded while a recording is on: time, latitude/longitude, accuracy, and when available altitude, speed and heading</td><td>App private storage (local database)</td><td><span class="badge">Never</span></td></tr>
+      <tr><td>Recordings (start/end time, pause time, how they ended) and the stops, trips and transport modes the app works out from the points</td><td>App private storage (local database)</td><td><span class="badge">Never</span></td></tr>
+      <tr><td>Places you name (e.g. Home, Work): name, category, position and radius; corrections you make to stops and trips</td><td>App private storage (local database)</td><td><span class="badge">Never</span></td></tr>
+      <tr><td>Settings: recording profile, units, auto-stop rules, reminders, app lock, language, theme, how long to keep history</td><td>App private storage</td><td><span class="badge">Never</span></td></tr>
+      <tr><td>Exports (GPX, KML, GeoJSON, CSV) and backups (ZIP) you create</td><td>A location you pick in Android&rsquo;s file picker</td><td><span class="badge">Never</span> (unless you share or move the file yourself)</td></tr>
+    </tbody>
+  </table>
+  <p>Files you import (GPX, Google Timeline / Location History exports, or a backup) are read from the file you pick and stored the same way as recorded data.</p>
+</section>
+
+<section class="card">
+  <h2>4. Permissions used</h2>
+  <table>
+    <thead><tr><th>Permission</th><th>Reason</th><th>When asked</th></tr></thead>
+    <tbody>
+      <tr><td><code>ACCESS_FINE_LOCATION</code>, <code>ACCESS_COARSE_LOCATION</code></td><td>Record your position while a recording you started is running. With approximate location only, the app still records, less precisely.</td><td>The first time you tap <em>Start line</em>, after an in-app explanation of what is collected and why. &ldquo;While using the app&rdquo; is enough; background location is never requested.</td></tr>
+      <tr><td><code>FOREGROUND_SERVICE</code>, <code>FOREGROUND_SERVICE_LOCATION</code></td><td>Keep recording with the screen off or while you use other apps, shown by a persistent notification with Pause and End line buttons.</td><td>Auto-granted (normal permissions)</td></tr>
+      <tr><td><code>POST_NOTIFICATIONS</code></td><td>Show the recording notification, reminders you set, and a notice when a recording ends automatically.</td><td>After you start your first recording (Android 13+). Optional.</td></tr>
+      <tr><td><code>USE_BIOMETRIC</code>, <code>USE_FINGERPRINT</code></td><td>Optional app lock: unlock the app with your fingerprint, face or screen lock. The app never sees your biometric data; Android checks it.</td><td>Auto-granted; used only if you turn on the app lock</td></tr>
+    </tbody>
+  </table>
+  <p>The app does <strong>not</strong> request background location (<code>ACCESS_BACKGROUND_LOCATION</code>), internet access, boot start, contacts, camera, microphone, storage or any other permission. Imports and exports go through Android&rsquo;s file picker, which gives access only to the file you choose.</p>
+</section>
+
+<section class="card">
+  <h2>5. Network activity and third parties</h2>
+  <p>The app has no internet permission and makes no network requests. It contains no advertising, analytics, crash-reporting, social or cloud SDK, and no map service: the network map is drawn on your phone from your own stops.</p>
+  <p>Positions come from your phone&rsquo;s location system. Where Google Play services is installed, the app uses its fused location provider (GPS, Wi-Fi, mobile network and sensors); otherwise it uses Android&rsquo;s built-in location providers. When <em>Google Location Accuracy</em> is turned on in your phone&rsquo;s settings, Google may collect location data to improve location accuracy under <a href="https://policies.google.com/privacy">Google&rsquo;s Privacy Policy</a>; this is a device setting, independent of this app, which never sends your data to Google or anyone else.</p>
+  <p>When you share an export or backup through the system share sheet, the app hands the file to the app you choose; the developer does not see what you share.</p>
+</section>
+
+<section class="card">
+  <h2>6. Children&rsquo;s privacy</h2>
+  <p>The app is intended for general audiences and is not directed at children under 13. We do not knowingly collect personal information from children, and the developer collects no personal information from anyone.</p>
+</section>
+
+<section class="card">
+  <h2>7. Data retention and deletion</h2>
+  <p>Your history stays on your phone until you delete it. You can:</p>
+  <ul>
+    <li>delete part of a day&rsquo;s line or a saved place in the app, or a date range in <em>Settings &rarr; Your data</em>;</li>
+    <li>set <em>Settings &rarr; Your data &rarr; Keep history</em> so history older than the period you choose is deleted automatically;</li>
+    <li>tap <em>Settings &rarr; Your data &rarr; Delete all my data</em> to erase every recording, place and edit at once;</li>
+    <li>clear the app&rsquo;s storage in <em>Android Settings &rarr; Apps &rarr; Movement Tracker &rarr; Storage</em>, or uninstall the app.</li>
+  </ul>
+  <p>Exports and backups you saved are your own files and remain until you delete them. The developer holds no copy of anything.</p>
+</section>
+
+<section class="card">
+  <h2>8. Security</h2>
+  <p>App data is held in the app&rsquo;s private storage, protected by Android&rsquo;s built-in application sandboxing, and is excluded from Android cloud backup. An optional app lock asks for your fingerprint, face or screen lock and hides the app&rsquo;s content from screenshots and the recent-apps view. The app is distributed through the Google Play Store, which verifies the developer signing key on every update.</p>
+</section>
+
+<section class="card">
+  <h2>9. Changes to this policy</h2>
+  <p>If any material aspect of how the app handles data ever changes, this page will be updated and the &ldquo;last updated&rdquo; date above will be bumped. Continued use after a change constitutes acceptance.</p>
+</section>
+
+<section class="card">
+  <h2>10. Contact</h2>
+  <p>Questions, requests about your data, or complaints (including as grievance contact under India&rsquo;s Digital Personal Data Protection Act)? Email <a href="mailto:coolapphelpdesk@gmail.com">coolapphelpdesk@gmail.com</a>.</p>
+</section>
+
+<footer>&copy; 2026 TeamCoolApps &middot; Movement Tracker</footer>
+
+</main>
+</body>
+</html>
